@@ -25,6 +25,8 @@ $ python3 clock.py
 Use with crontabs to run repeatedly。
 ````
 $ crontab -e
+
+# run every munite
 * * * * * python3 ~/clock.py
 ````
 

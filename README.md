@@ -27,3 +27,9 @@ Use with crontabs to run repeatedly。
 $ crontab -e
 * * * * * python3 ~/clock.py
 ````
+
+## A Example of Execution Result
+````
+ 2022/05/11 Wed
+     4:21 PM
+````

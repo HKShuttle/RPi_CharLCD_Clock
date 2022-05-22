@@ -1,8 +1,8 @@
 # RPi_CharLCD_Clock
-This is a python Script for displaying the clock and date with Raspberry Pi and Adafruit_CharLCD.
+This is a python script for displaying the clock and the date with Raspberry Pi and Adafruit_CharLCD.
 
 ## Pin Assignment and LCD Configulation
-Please edit as needed.
+Edit here as needed.
 ````
 # GPIO Pin Assignment
 lcd_rs = 7
@@ -18,15 +18,15 @@ lcd_rows = 2
 ````
 
 ## Usage
-Put "clock.py" file on your home directory (or any directory) then run this command in your terminal.
+Put "clock.py" file on your home directory (or any directory) and run this command in your terminal.
 ````
 $ python3 clock.py
 ````
-Use with crontabs to run repeatedly。
+Use with crontabs to run repeatedly.
 ````
 $ crontab -e
 
-# run every munite
+# run every minute
 * * * * * python3 ~/clock.py
 ````
 
